@@ -3,7 +3,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/your-repo/cachemesh)](https://goreportcard.com/report/github.com/your-repo/cachemesh)
 [![GoDoc](https://godoc.org/github.com/your-repo/cachemesh?status.svg)](https://godoc.org/github.com/your-repo/cachemesh)
 [![Build Status](https://travis-ci.org/your-repo/cachemesh.svg?branch=main)](https://travis-ci.org/your-repo/cachemesh)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 **Using P2P Networking For A Decentralized In-Memory Cache Between Microservices**
 
@@ -153,4 +153,6 @@ Contributions are welcome! Please feel free to submit a pull request.
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Copyright (c) 2024 Your Name or Company
+
+This project is licensed under the Apache License 2.0 - see the `LICENSE` file for details.
