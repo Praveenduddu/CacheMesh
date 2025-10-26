@@ -1,8 +1,7 @@
 # CacheMesh
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/your-repo/cachemesh)](https://goreportcard.com/report/github.com/your-repo/cachemesh)
-[![GoDoc](https://godoc.org/github.com/your-repo/cachemesh?status.svg)](https://godoc.org/github.com/your-repo/cachemesh)
-[![Build Status](https://travis-ci.org/your-repo/cachemesh.svg?branch=main)](https://travis-ci.org/your-repo/cachemesh)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/your-repo/cachemesh/build.yml?branch=main)](https://github.com/your-repo/cachemesh/actions)
+[![Maven Central](https://img.shields.io/maven-central/v/com.your-group/cachemesh.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:com.your-group%20AND%20a:cachemesh)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 **Using P2P Networking For A Decentralized In-Memory Cache Between Microservices**
@@ -25,6 +24,7 @@ This creates a shared, high-speed, in-memory cache that scales horizontally with
 - **Peer-to-Peer Discovery:** Nodes automatically discover each other using a gossip protocol.
 - **Consistent Hashing:** Keys are distributed across the cluster using a consistent hashing algorithm, minimizing rebalancing when nodes join or leave.
 - **Embeddable:** Integrates directly into your Go application as a library.
+- **Spring Boot Native:** First-class integration with Spring Boot for auto-configuration and easy management.
 - **Lightweight:** Designed to have a small memory and CPU footprint.
 - **Scalable:** Scales horizontally as you add more service instances.
 - **Simple API:** A familiar `Get`, `Set`, `Delete` API for caching.
